@@ -67,7 +67,7 @@ const Home: React.FC<{ productId: (productId: any) => void }> = (props) => {
 
     async function getProducts() {
 
-        await axios.get('https://mern-backend-orpin.vercel.app/products',)
+        await axios.get('/products',)
             .then((response) => {
                 if (response.status !== 200) {
                     toast.error("Something went wrong!")
