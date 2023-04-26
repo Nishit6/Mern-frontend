@@ -21,7 +21,7 @@ const Layout = (props: any) => {
         const searchValue = inputRef.current?.value
         e.preventDefault()
         inputRef.current!.value = ''
-        await axios.post(`https://mern-backend-orpin.vercel.app/products/${searchValue}`)
+        await axios.post(`https://mern-backend-theta.vercel.app/products/${searchValue}`)
             .then((response) => {
                 if (response.status !== 200) {
                     toast.error("Something went wrong!")

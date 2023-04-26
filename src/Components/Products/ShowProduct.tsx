@@ -32,7 +32,7 @@ const ShowProduct: React.FC<{ productId: string }> = (props) => {
             return
         }
 
-        await axios.delete(`https://mern-backend-orpin.vercel.app/products/${pId}`)
+        await axios.delete(`https://mern-backend-theta.vercel.app/products/${pId}`)
             .then((response) => {
                 if (response.status !== 200) {
                     toast.error("Something went wrong!")

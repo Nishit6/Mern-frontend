@@ -54,7 +54,7 @@ const SingUp: React.FC<{}> = () => {
 
     async function registerUser(username: string, email: string, password: string, confirmPassword: string) {
 
-        await axios.post('https://mern-backend-orpin.vercel.app/register', { username: username, email: email, password: password, passwordVerify: confirmPassword })
+        await axios.post('https://mern-backend-theta.vercel.app/register', { username: username, email: email, password: password, passwordVerify: confirmPassword })
             .then((response) => {
                 console.log(" Register User Response ", response)
                 if (response.status !== 200) {

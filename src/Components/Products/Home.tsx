@@ -31,7 +31,7 @@ const Home: React.FC<{ productId: (productId: any) => void }> = (props) => {
 
     async function checkUserAuth() {
 
-        await axios.get("https://mern-backend-orpin.vercel.app/isUserAuth", {
+        await axios.get("https://mern-backend-theta.vercel.app/isUserAuth", {
             headers: {
                 "x-access-token": localStorage.getItem("token"),
             },
@@ -67,7 +67,7 @@ const Home: React.FC<{ productId: (productId: any) => void }> = (props) => {
 
     async function getProducts() {
 
-        await axios.get('https://mern-backend-orpin.vercel.app/products',)
+        await axios.get('https://mern-backend-theta.vercel.app/products')
             .then((response) => {
                 if (response.status !== 200) {
                     toast.error("Something went wrong!")

@@ -19,7 +19,7 @@ const Header: React.FC<{}> = () => {
 
 
   const logoutHandler = () => {
-    axios.get('https://mern-backend-orpin.vercel.app/logout',)
+    axios.get('https://mern-backend-theta.vercel.app/logout',)
       .then((response) => {
         if (response.status !== 200) {
           toast.error("Something went wrong!")
@@ -55,7 +55,7 @@ const Header: React.FC<{}> = () => {
 
 
 
-    await axios.post(`/products/${searchValue}`)
+    await axios.post(`https://mern-backend-theta.vercel.app/products/${searchValue}`)
       .then((response) => {
         if (response.status !== 200) {
           toast.error("Something went wrong!")

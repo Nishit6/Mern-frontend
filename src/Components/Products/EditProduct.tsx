@@ -28,7 +28,7 @@ const EditProduct: React.FC<{ productId: string }> = (props) => {
 
 
 
-        await axios.patch(`https://mern-backend-orpin.vercel.app/products/${id}`, { name: productName, desc: productDesc, img: productImg, quantity: productQuantity, price: productPrice })
+        await axios.patch(`https://mern-backend-theta.vercel.app/products/${id}`, { name: productName, desc: productDesc, img: productImg, quantity: productQuantity, price: productPrice })
             .then((response) => {
                 if (response.status !== 200) {
                     toast.error("Something went wrong!")
