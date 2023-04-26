@@ -1,0 +1,7 @@
+.card-show {
+    margin: 20px auto;
+}
+
+.card-show:hover {
+    transform: scale(1);
+}

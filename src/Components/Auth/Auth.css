@@ -1,0 +1,68 @@
+body {
+
+
+    background-color: rgb(148, 193, 199) !important;
+
+}
+
+
+.add-app-form {
+    background-color: white;
+    width: 40vw;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 2px 3px 4px gray;
+}
+
+.app-heading {
+    color: rgb(0 120 120);
+    text-shadow: 2px 3px 4px gray;
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.addapp-btn {
+    min-width: 48%;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.form-grp {
+    border: 1px solid rgb(0, 137, 216) !important;
+    padding: 20px;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow: 2px 3px 4px green;
+
+}
+
+.edit-app-title {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+    .add-app-form {
+
+        width: 80vw;
+
+        margin: 50px auto;
+        padding: 30px;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1326px) {
+    .add-app-form {
+
+        margin: 30px auto;
+        padding: 30px;
+
+    }
+
+
+}

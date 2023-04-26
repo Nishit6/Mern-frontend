@@ -1,0 +1,34 @@
+.nav {
+
+    background-color: #0096c7;
+}
+
+.username {
+    color: rgb(17 97 167);
+    font-weight: 600;
+    font-family: serif;
+    font-size: 1.6rem;
+
+
+}
+
+.NavLink {
+    text-decoration: none;
+    color: white;
+}
+
+.NavLink:hover {
+
+    color: rgb(87, 235, 124);
+
+}
+
+
+.app-title {
+    font-family: 'Tilt Prism', cursive;
+    font-size: 2rem !important;
+}
+
+.app-title:hover {
+    transform: scale(1.1) !important;
+}

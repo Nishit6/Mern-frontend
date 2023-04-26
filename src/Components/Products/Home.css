@@ -1,0 +1,36 @@
+.card-img {
+
+    height: 160px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.main-container {
+    margin: 100px auto;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    color: rgb(255, 255, 0);
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.view-btn {
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
