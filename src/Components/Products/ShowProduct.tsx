@@ -68,7 +68,7 @@ const ShowProduct: React.FC<{ productId: string }> = (props) => {
                     {filteredProduct.map((item: any) => (
 
 
-                        <Card className="card-show" style={{ width: '25rem', minHeight: '30rem' }}>
+                        <Card className="card-show" style={{ maxWidth: '25rem', minHeight: '30rem' }}>
                             <Card.Img className="card-img-show" variant="top" src={item.img} />
 
                             <Card.Body>
