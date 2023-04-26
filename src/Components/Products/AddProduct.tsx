@@ -62,7 +62,7 @@ const AddProduct: React.FC<{}> = (props) => {
         console.log(productName, productDesc, productImg, productPrice, productQuantity)
 
 
-        await axios.post('/products', { name: productName, desc: productDesc, img: productImg, quantity: productQuantity, price: productPrice })
+        await axios.post('https://mern-backend-orpin.vercel.app/products', { name: productName, desc: productDesc, img: productImg, quantity: productQuantity, price: productPrice })
             .then((response) => {
                 if (response.status !== 200) {
                     toast.error("Something went wrong!")

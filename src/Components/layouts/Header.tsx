@@ -19,7 +19,7 @@ const Header: React.FC<{}> = () => {
 
 
   const logoutHandler = () => {
-    axios.get('/logout',)
+    axios.get('https://mern-backend-orpin.vercel.app/logout',)
       .then((response) => {
         if (response.status !== 200) {
           toast.error("Something went wrong!")

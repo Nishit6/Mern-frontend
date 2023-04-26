@@ -51,7 +51,7 @@ const Login: React.FC<{ loginUserResponse: (loggedInUserDetails: any) => void }>
 
     async function loginUser(email: string, password: string) {
 
-        await axios.post('/login', { email: email, password: password })
+        await axios.post('https://mern-backend-orpin.vercel.app/login', { email: email, password: password })
             .then((response) => {
                 if (response.status !== 200) {
                     toast.error("Something went wrong!")
